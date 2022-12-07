@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:safer/screens/home.dart';
+import 'package:safer/constants.dart';
+import 'package:safer/screens/welcome/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,10 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter',
+        title: 'Safer',
         theme: ThemeData(
-          primarySwatch: Colors.grey,
+          primaryColor: kPrimaryColor,
+          scaffoldBackgroundColor: Colors.grey,
         ),
-        home: HomeScreen());
+        home: const WelcomeScreen());
   }
 }
