@@ -26,12 +26,16 @@ class Body extends StatelessWidget {
             ),
             Text(
               "LOGIN",
-              style: TextStyle(fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 40,
+                  color: Color(0xFF43484b)),
             ),
             SizedBox(
               height: size.height * 0.03,
             ),
             RoundedInputField(
+              icon: Icons.person,
               hintText: "Your Email",
               onChanged: (value) {},
             ),
