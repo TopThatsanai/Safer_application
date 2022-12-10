@@ -1,12 +1,12 @@
 class Profile {
   String username;
-  late String password;
-  late String confirmPassword;
-  late String firstName;
-  late String lastName;
-  late String citizenId;
-  late String email;
-  late String phoneNumber;
+  String password;
+  String confirmPassword;
+  String firstName;
+  String lastName;
+  String citizenId;
+  String email;
+  String phoneNumber;
 
   Profile({
     required this.username,
