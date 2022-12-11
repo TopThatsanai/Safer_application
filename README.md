@@ -2,7 +2,7 @@
 
 ## This project is a part of CPE327 Software Engineering in computer engineering department at King Mongkut’s University of Technology Thonburi 
 
-### The database use firebase 
+### The database use firebase of google
 
 #### The member of group have 4 people
 #### 1. นายณรงค์เดช  เปลี่ยนขำ
