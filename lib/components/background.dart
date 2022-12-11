@@ -10,7 +10,6 @@ class Background extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
-      alignment: Alignment.center,
       fit: StackFit.expand,
       children: <Widget>[
         Container(

@@ -8,6 +8,7 @@ class GetTaskName extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     //get the collection
     CollectionReference task = FirebaseFirestore.instance.collection('task');
 
@@ -17,7 +18,25 @@ class GetTaskName extends StatelessWidget {
         if (snapshot.connectionState == ConnectionState.done) {
           Map<String, dynamic> data =
               snapshot.data!.data() as Map<String, dynamic>;
-          return Text('${data['name_task']}');
+          return Column(
+            children: [
+              Text('Task: ${data['name_task']}'),
+              SizedBox(height: size.height * 0.02),
+              Text('Detail: ${data['detail_task']}'),
+              SizedBox(height: size.height * 0.02),
+              Text('The owner of task: ${data['fname']}' +
+                  ' ' +
+                  '${data['lname']}'),
+              SizedBox(height: size.height * 0.02),
+              Text('Address: ${data['address']}'),
+              SizedBox(height: size.height * 0.02),
+              Text('Telephone number: ${data['phone']}'),
+              SizedBox(height: size.height * 0.02),
+              Text(
+                  '---------------------------------------------------------------------------'),
+              SizedBox(height: size.height * 0.04),
+            ],
+          );
         }
         return Text('loading...');
       }),

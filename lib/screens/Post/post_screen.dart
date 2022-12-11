@@ -30,7 +30,7 @@ class _PostScreenState extends State<PostScreen> {
           padding: const EdgeInsets.all(20),
           child: SingleChildScrollView(
             child: Padding(
-              padding: const EdgeInsets.fromLTRB(0, 80, 0, 0),
+              padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -68,7 +68,7 @@ class _PostScreenState extends State<PostScreen> {
                   RoundedInputField(
                       hintText: 'Enter detail Here',
                       icon: Icons.details,
-                      controller: controller),
+                      controller: detailController),
                   RoundedButton(
                     text: 'Post',
                     press: () {
