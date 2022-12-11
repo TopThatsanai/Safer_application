@@ -4,6 +4,7 @@ import 'package:safer/components/background.dart';
 import 'package:safer/components/rounded_button.dart';
 import 'package:safer/components/rounded_input_field.dart';
 import 'package:safer/model/task.dart';
+import 'package:safer/screens/Home/home_screen.dart';
 
 class PostScreen extends StatefulWidget {
   const PostScreen({
@@ -82,6 +83,14 @@ class _PostScreenState extends State<PostScreen> {
                       );
                       createTask(task);
                       Navigator.pop(context);
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return HomeScreen();
+                          },
+                        ),
+                      );
                     },
                   ),
                 ],
