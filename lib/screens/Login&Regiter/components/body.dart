@@ -4,9 +4,9 @@ import 'package:safer/components/rounded_input_field.dart';
 import 'package:safer/components/rounded_password_field.dart';
 import 'package:safer/constants.dart';
 import 'package:safer/components/buttonstyle.dart';
+import 'package:safer/auth.dart';
 
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:safer/auth.dart';
 
 class Body extends StatefulWidget {
   const Body({super.key});

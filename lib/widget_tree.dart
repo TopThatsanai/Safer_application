@@ -1,7 +1,7 @@
+import 'package:flutter/material.dart';
 import 'package:safer/auth.dart';
 import 'package:safer/screens/Home/home_screen.dart';
 import 'package:safer/screens/Login&Regiter/login_screen.dart';
-import 'package:flutter/material.dart';
 
 class WidgetTree extends StatefulWidget {
   const WidgetTree({super.key});
