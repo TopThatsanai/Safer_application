@@ -41,24 +41,26 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             Column(
               children: [
-                Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.fromLTRB(200, 0, 0, 0),
-                      child: Text(user?.email ?? 'User email'),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(20),
-                      child: GestureDetector(
-                        onDoubleTap: () {
-                          FirebaseAuth.instance.signOut();
-                        },
-                        child: Icon(Icons.logout),
+                Center(
+                  child: Row(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.fromLTRB(200, 0, 0, 0),
+                        child: Text(user?.email ?? 'User email'),
                       ),
-                    ),
-                  ],
+                      Padding(
+                        padding: const EdgeInsets.all(20),
+                        child: GestureDetector(
+                          onDoubleTap: () {
+                            FirebaseAuth.instance.signOut();
+                          },
+                          child: const Icon(Icons.logout),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
-                Text(
+                const Text(
                     '----------------------------------------------------------'),
               ],
             ),
