@@ -1,9 +1,5 @@
 import 'package:safer/auth.dart';
 import 'package:safer/screens/Home/home_screen.dart';
-//import 'package:safer/screens/Home/navbar.dart';
-//import 'package:safer/screens/Home/home_screen.dart';
-//import 'package:safer/screens/Post/post_screen.dart';
-//import 'package:safer/screens/Profile/profile_screen.dart';
 import 'package:safer/screens/Login&Regiter/login_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -22,7 +18,6 @@ class _WidgetTreeState extends State<WidgetTree> {
       builder: (context, snapshot) {
         if (snapshot.hasData) {
           return HomeScreen();
-          //HomeScreen();
         } else {
           return LoginScreen();
         }

@@ -15,7 +15,6 @@ class PostScreen extends StatefulWidget {
 }
 
 class _PostScreenState extends State<PostScreen> {
-  final controller = TextEditingController();
   final fnameController = TextEditingController();
   final lnameController = TextEditingController();
   final phoneController = TextEditingController();
@@ -82,7 +81,8 @@ class _PostScreenState extends State<PostScreen> {
                         detail_task: detailController.text,
                       );
                       createTask(task);
-                      Navigator.pop(context);
+                      Navigator.pop(context); // pop Post Screen
+                      // push new screen for refresh Home Screen
                       Navigator.push(
                         context,
                         MaterialPageRoute(
@@ -107,7 +107,6 @@ Future createTask(Task task) async {
   final docTask = FirebaseFirestore.instance.collection('task').doc();
   task.id = docTask.id;
   final json = task.toJson();
-
   //Create document and write data to Firebase
   await docTask.set(json);
 }
