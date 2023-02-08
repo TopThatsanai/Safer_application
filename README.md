@@ -14,7 +14,7 @@
 #### 3. นายภัทรวรรธ วราวุฒิ 
 #### 4. นายชยพล สมประสงค์
 
-![Login page](https://drive.google.com/file/d/1tO0_VbCxvDHSV2qAoBkrcVSh23_XYZvI/view?usp=share_link)
-![Register page](https://drive.google.com/file/d/1yJcolm_hJEWK7hJMEuHnk1gTcpTHAodT/view?usp=share_link)
-![Home page](https://drive.google.com/file/d/1gjgxyGj7fGm1I6QUHENeBmY91dk9BFU_/view?usp=share_link)
-![Detail page](https://drive.google.com/file/d/1jGKGXl6FWMC1LFtFtYy_JPieo9gqZNRU/view?usp=share_link)
+![Login page](\assets\viewer\login_page.jpg)
+![Register page](\assets\viewer\register_page.jpg)
+![Home page](\assets\viewer\main_page.jpg)
+![Detail page](\assets\viewer\detail_page.jpg)
