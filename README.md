@@ -1,6 +1,7 @@
 # **Safer Application**
 
 ## This project is a part of CPE327 Software Engineering in computer engineering department at King Mongkut’s University of Technology Thonburi 
+## For this project, we will use the waterfall process to create a project
 
 ### The database used firebase of google
 ### Front-End and Back-End used dart of flutter framework
