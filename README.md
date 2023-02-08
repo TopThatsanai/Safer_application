@@ -14,7 +14,7 @@
 #### 3. นายภัทรวรรธ วราวุฒิ 
 #### 4. นายชยพล สมประสงค์
 
-![Login page](\assets\viewer\login_page.jpg)
-![Register page](\assets\viewer\register_page.jpg)
-![Home page](\assets\viewer\main_page.jpg)
-![Detail page](\assets\viewer\detail_page.jpg)
+![Login page](...\assets\viewer\login_page.jpg)
+![Register page](...\assets\viewer\register_page.jpg)
+![Home page](...\assets\viewer\main_page.jpg)
+![Detail page](...\assets\viewer\detail_page.jpg)
